@@ -1,6 +1,6 @@
 # N-qubit-nonlinear-protocol
 
-This project contains the Wolfram Mathematica notebook (*3qubit_analitics.nb*) and Python notebook (*Nqubit_numerics.py*) for the reproduction of essential results of the project '*Practical scheme for efficient distillation of GHZ states*' . [ref.]
+This project contains the Wolfram Mathematica notebook (*3qubit_analitics.nb*) and Python notebook (*Nqubit_numerics.py*) for the reproduction of essential results of 'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
 
 The study has been submitted to a scientific journal; the corresponding authors are **Aron Rozgonyi**[1,2,3,4], **Gabor Szechenyi**[1,2], **Orsolya Kalman**[2] and **Tamas Kiss**[2].
 
@@ -10,7 +10,7 @@ The study has been submitted to a scientific journal; the corresponding authors 
 
 [2] Department for Quantum Optics and Quantum Information, [HUN-REN Wigner Research Centre for Physics](https://wigner.hu/en/news), Budapest, Hungary
 
-[3] PQI - Portuguese Quantum Institute, Lisbon, Portugal
+[3] PQI - [Portuguese Quantum Institute](https://pqi.pt), Lisbon, Portugal
 
 [4] Physics of Information and Quantum Technologies Group, Centro de Física e Engenharia de Materiais Avançados (CeFEMA), Lisbon, Portugal
 
