@@ -1,0 +1,36 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Practical scheme for efficient distillation of GHZ states
+message: ' If you use this code, please cite it and our article using the metadata from this file.'
+type: dataset
+authors:
+  - given-names: Aron
+    family-names: Rozgonyi
+    email: a.rozgonyi96@gmail.com
+    affiliation: ELTE Eotvos Lorand University
+    orcid: 'https://orcid.org/0009-0002-3965-3538'
+  - given-names: 'Gabor '
+    family-names: Szechenyi
+    email: gabor.szechenyi@ttk.elte.hu
+    affiliation: ELTE Eotvos Lorand University
+    orcid: 'https://orcid.org/0000-0003-4178-5759'
+  - given-names: Orsolya
+    family-names: Kalman
+    email: kalman.orsolya@wigner.hu
+    affiliation: HUN-REN Wigner RCP
+    orcid: 'https://orcid.org/0000-0002-6156-5641'
+  - given-names: Tamas
+    family-names: Kiss
+    orcid: 'https://orcid.org/0000-0001-9320-291X'
+    affiliation: HUN-REN Wigner RCP
+    email: kiss.tamas@wigner.hu
+identifiers:
+  - type: url
+    value: 'https://arxiv.org/abs/2501.12268'
+    description: The ArXiv deposit of the encompassing paper.
+repository-code: 'https://github.com/Aron9605/N-qubit-nonlinear-protocol'
+keywords:
+  - Quantum-protocol
+  - Entanglement-distillation
