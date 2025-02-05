@@ -1,6 +1,6 @@
 # N-qubit-nonlinear-protocol
 
-This project contains the Wolfram Mathematica notebook (*3qubit_analitics.nb*) and Python notebook (*Nqubit_numerics.py*) for the reproduction of essential results of 'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
+This project contains the codes for the reproduction of essential results of the research 'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
 
 The study has been submitted to a scientific journal; the corresponding authors are **Aron Rozgonyi**[1,2,3,4], **Gabor Szechenyi**[1,2], **Orsolya Kalman**[2] and **Tamas Kiss**[2].
 
@@ -28,6 +28,18 @@ Finally, our hardware-efficient design is implementable on recent quantum comput
 
 [1] Áron Rozgonyi, Gábor Széchenyi, Orsolya Kálmán, Tamás Kiss. “Training iterated protocols for distillation of GHZ states with variational quantum algorithms.” Physics Letters A
 
+
+## Repository Structure
+
+* notebooks/: Source code for implementing the quantum protocols.
+* authors/: Lists people who are significant authors of the project.
+* docs/: Documentation and references for understanding the theory and implementation details.
+
 ## Code availability:
-* 3qubit_analitics.nb Wolfram Mathematica notebook contains the analitical investigation of 3-qubit distillation and preparing the unitary operators.
+* 3qubit_analitics.nb Wolfram Mathematica notebook contains the analitical investigation of 3-qubit GHZ distillation scheme and preparing the unitary operators.
 * Nqubit_numerics.py Python notebook contains the numerical analysis of the N-qubit algorithm.
+
+## Requirements
+
+* Wolfram Mathematica
+* Python
