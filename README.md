@@ -1,6 +1,6 @@
 # N-qubit-nonlinear-protocol
 
-This project contains the codes for the reproduction of essential results of the research **'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'**. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
+This project provides code and scripts that reproduce the key findings presented in the paper **'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'**. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
 
 
 ## Overview
