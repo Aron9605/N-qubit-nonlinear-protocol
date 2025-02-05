@@ -2,19 +2,8 @@
 
 This project contains the codes for the reproduction of essential results of the research 'Rozgonyi, Á., Széchenyi, G., Kálmán, O. and Kiss, T., 2025. Practical scheme for efficient distillation of GHZ states'. arXiv preprint  [arXiv:2501.12268.](https://doi.org/10.48550/arXiv.2501.12268)
 
-The study has been submitted to a scientific journal; the corresponding authors are **Aron Rozgonyi**[1,2,3,4], **Gabor Szechenyi**[1,2], **Orsolya Kalman**[2] and **Tamas Kiss**[2].
 
-*Affiliations*:
-
-[1] Institute of Physics, [Eotvos Lorand University](https://www.elte.hu/en/), Budapest, Hungary
-
-[2] Department for Quantum Optics and Quantum Information, [HUN-REN Wigner Research Centre for Physics](https://wigner.hu/en/news), Budapest, Hungary
-
-[3] PQI - [Portuguese Quantum Institute](https://pqi.pt), Lisbon, Portugal
-
-[4] Physics of Information and Quantum Technologies Group, Centro de Física e Engenharia de Materiais Avançados (CeFEMA), Lisbon, Portugal
-
-## Abstract
+## Overview
 
 <p align="justify">
 We develop an efficient local operation and classical communication (LOCC) scheme for the distillation of Greenberger-Horne-Zeilinger (GHZ) states from tripartite systems subjected to both coherent and incoherent errors. The proposed method employs an iterative process that employs a postselection based non-linear transformation to increase the entanglement of 3-qubit states. In contrast to traditional distillation protocols that require an exponential number of initial states as a resource, our method achieves subexponential convergence towards a pure GHZ state. The proposed scheme practical in the sense that it employs a small set of relatively simple unitary operations and projective measurements in the computational basis.
