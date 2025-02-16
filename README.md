@@ -23,7 +23,7 @@ Finally, our hardware-efficient design is implementable on recent quantum comput
 * notebooks/: Source code for implementing the quantum protocols.
 * authors/: Lists people who are significant authors of the project.
 * docs/: Documentation and references for understanding the theory and implementation details.
-* citation/: If you use this code or mention its results, please cite it.
+* citation/: Full citation details are available, if you use this code or mention its results, please cite it.
 
 ## Code availability:
 * 3qubit_analitics.nb Wolfram Mathematica notebook contains the analitical investigation of 3-qubit GHZ distillation scheme and preparing the unitary operators.
