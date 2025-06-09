@@ -26,8 +26,8 @@ Finally, our hardware-efficient design is implementable on recent quantum comput
 * citation/: Full citation details are available, if you use this code or mention its results, please cite it.
 
 ## Code availability:
-* 3qubit_analitics.nb Wolfram Mathematica notebook contains the analitical investigation of 3-qubit GHZ distillation scheme and preparing the unitary operators.
-* Nqubit_numerics.py Python notebook contains the numerical analysis of the N-qubit algorithm.
+* 3qubit_analitics.nb Wolfram Mathematica notebook contains the analytical investigation of the 3-qubit GHZ distillation scheme and prepares the unitary operators.
+* Nqubit_numerics.ipynb Jupyter notebook contains the numerical analysis of the N-qubit algorithm.
 
 ## Requirements
 
