@@ -29,8 +29,12 @@ Finally, our hardware-efficient design is implementable on recent quantum comput
 * citation/: Full citation details are available, if you use this code or mention its results, please cite it.
 
 ## Code availability:
-* 3qubit_analitics.nb Wolfram Mathematica notebook contains the analytical investigation of the 3-qubit GHZ distillation scheme and prepares the unitary operators.
-* Nqubit_numerics.ipynb Jupyter notebook contains the numerical analysis of the N-qubit algorithm.
+* 3qubit_symbolic.nb Analytical Mathematica notebook for the 3-qubit GHZ distillation protocol, including unitary construction, no-go theorem derivation, and noise analysis.
+* n_qubit_distillation.ipynb Jupyter notebook provides a numerical investigation of the N-qubit GHZ distillation protocol, analyzing its performance and convergence behavior.
+
+## Scalability and runtime constraints:
+
+* In practice, running the code for systems larger than N > 6 qubits can significantly increase runtime.
 
 ## Requirements
 
