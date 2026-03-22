@@ -6,9 +6,10 @@ This project provides code and scripts that reproduce the key findings presented
 ## Overview
 
 <p align="justify">
-We develop an efficient local operation and classical communication (LOCC) scheme for the distillation of Greenberger-Horne-Zeilinger (GHZ) states from tripartite systems subjected to both coherent and incoherent errors. The proposed method employs an iterative process that employs a postselection based non-linear transformation to increase the entanglement of 3-qubit states. In contrast to traditional distillation protocols that require an exponential number of initial states as a resource, our method achieves subexponential convergence towards a pure GHZ state. The proposed scheme practical in the sense that it employs a small set of relatively simple unitary operations and projective measurements in the computational basis.
-We systematically develop a double-iteration protocol by providing a mathematical framework for the transformation processes involved, emphasizing the role of unitary operations in correcting arbitrary small errors in the initial states. Through analytical derivations and numerical simulations, we demonstrate the protocol's ability to progressively eliminate noise and improve fidelity over subsequent iterations.
-Significantly, our protocol not only corrects for small arbitrary distortions in the GHZ states, but also maintains operational simplicity, making it feasible for practical quantum computing applications. 
+Generating Greenberger-Horne-Zeilinger (GHZ) states in a lab remains a challenge due to imperfect operations and noisy devices. Noise in imperfect quantum states can be mitigated through entanglement distillation, a critical component of quantum communication protocols. 
+We present an efficient local operation and classical communication (LOCC) scheme for distilling GHZ states from tripartite systems affected by both coherent and incoherent errors. Our method utilizes an iterative process that applies a postselection-based non-linear transformation to enhance the entanglement of three-qubit states. The scheme remains practical by employing a limited set of straightforward unitary operations and projective measurements in the computational basis, resulting in subexponential convergence to a pure GHZ state, similarly to the recent scheme for two-qubit Bell states[2].
+We systematically develop a double-iteration protocol by establishing a mathematical framework for the transformation processes, with particular emphasis on the role of unitary operations in correcting small arbitrary errors in the initial states. Most importantly, our scheme can probabilistically transform 4 input copies of noisy GHZ states into a single, almost-perfect GHZ state, eliminating noise to first order. We also analytically derive a corresponding no-go theorem by demonstrating that such a scheme is impossible if only 2 inputs are provided. 
+Notably, our protocol corrects small arbitrary distortions in GHZ states, converging subexponentially to a pure GHZ state while maintaining operational simplicity, thereby supporting its feasibility for practical quantum computing applications.
   
 Finally, our hardware-efficient design is implementable on recent quantum computers, as evidenced by the low number of qubits required and the few 1- and 2-qubit gates needed. We employ the IBM Qiskit quantum simulator to test the protocol's performance on actual quantum hardware.
 </p>
@@ -16,6 +17,8 @@ Finally, our hardware-efficient design is implementable on recent quantum comput
 *References*:
 
 [1] Áron Rozgonyi, Gábor Széchenyi, Orsolya Kálmán, Tamás Kiss. “Training iterated protocols for distillation of GHZ states with variational quantum algorithms.” Physics Letters A
+
+[2] Kálmán, O., Gábris, A., Jex, I., & Kiss, T. (2025, December). Universal, unambiguous concentration and distillation of Bell pairs. Physical Review Letters, 135(26), 260202. https://doi.org/10.1103/rcx1-w6j7
 
 
 ## Repository Structure
