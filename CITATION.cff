@@ -4,7 +4,7 @@
 cff-version: 1.2.0
 title: Practical scheme for efficient distillation of GHZ states
 message: ' If you use this code, please cite it and our article using the metadata from this file.'
-type: dataset
+type: software
 authors:
   - given-names: Aron
     family-names: Rozgonyi
